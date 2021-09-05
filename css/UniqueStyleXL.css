@@ -1,0 +1,93 @@
+/* UniqueStyleXL 2: */
+body {
+    font-family: Arial;
+    background-color: #8b36d1;
+    line-height: 25px;
+}
+
+.container {
+    xmin-width: 800px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top {
+    color: #ffffff85;
+    padding: 15px;
+    font-size: 30px;
+    line-height: 26px;    
+}
+
+#top h1 {
+    margin:0;
+    line-height: 50px;
+}
+
+#menubar {
+    width: 190px;
+    float: right;
+}
+
+#main {
+    padding: 10px;
+    background-color: #ffffff85;
+    font: 80% Verdana;
+}
+
+#main h1, #main h2 {
+    color: #6e28a8;
+}
+
+#sidebar {
+    background-color: #F6DAD7;
+    color: #6e28a8;
+    padding: 10px;
+}
+
+#bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    color: #ffffff85;
+}
+
+#menulist {
+    padding:0;
+    font: 16px verdana;
+}
+
+.menuitem {
+    width: 155px;
+    background-color: #8b36d1;
+    border: 1px solid #8b36d1;
+    border-radius: 35px;
+    color: #ffffff85;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuitem:nth-child(5) {
+   background-color:white;
+   color: #8b36d1;
+   font-weight:bold;
+}
+
+.menuitem:hover {
+    background-color: #ffffff85;
+    color: #8b36d1;
+}
+
+a {
+    color: #8b36d1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
